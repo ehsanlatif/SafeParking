@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.ehsan.safeparking.Setting_Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorButtonNormal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Account"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?attr/colorButtonNormal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="Profile"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/forward" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?attr/colorButtonNormal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="notifications"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?attr/colorButtonNormal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="Payment"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/forward" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?attr/colorButtonNormal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="Reservation"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/forward" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?attr/colorButtonNormal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="Parking"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/forward" />
+        </LinearLayout>
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?attr/colorButtonNormal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="in the app"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?attr/colorButtonNormal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="Login"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/forward" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?attr/colorButtonNormal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="others"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?attr/colorButtonNormal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="Help Center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/forward" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?attr/colorButtonNormal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="Legal Agreements"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/forward" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?attr/colorButtonNormal"/>
+
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:src="@drawable/logout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Logout" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

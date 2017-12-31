@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ehsan.safeparking.SearchFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/place_search_field"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="108dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1">
+
+            <fragment
+                android:id="@+id/autocomplete_fragment"
+                android:name="com.google.android.gms.location.places.ui.SupportPlaceAutocompleteFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/spinercard"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/place_search_field"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1">
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/appCompatSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:entries="@array/Parking_Categories" />
+        </android.support.v7.widget.CardView>
+
+        <ImageButton
+            android:id="@+id/search_button_location"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/searchbutton"
+            android:cropToPadding="false"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/searchicon"
+            android:tag="curr"
+            android:text="Search"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinercard"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</FrameLayout>

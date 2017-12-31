@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ehsan.safeparking.Intermediate">
+
+
+    <android.support.v7.widget.Toolbar
+    android:id="@+id/my_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="?attr/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:layout_constraintBottom_toTopOf="@+id/imageviewPager"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    tools:layout_constraintLeft_creator="1"
+    tools:layout_constraintRight_creator="1"
+    tools:layout_constraintTop_creator="1">
+
+    <TextView
+    android:id="@+id/toolbar_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="SMART PARKING"
+    android:textColor="@android:color/white"
+    android:textSize="22sp"
+    android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_toolbar"></FrameLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="60dp"
+        android:background="@drawable/center_button"
+        android:onClick="SignupButtonPressed"
+        android:text="Sign up  for Reservation"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
